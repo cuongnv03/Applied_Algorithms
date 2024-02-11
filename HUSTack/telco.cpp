@@ -36,7 +36,8 @@ int calculateTimeDuration(const string& from_time, const string& end_time) {
 }
 
 int main() {
-	ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+	ios_base::sync_with_stdio(false); 
+	cin.tie(NULL); cout.tie(NULL);
     set<Call> calls;
     unordered_map<string, int> phoneCallCounts;
     unordered_map<string, int> phoneCallDurations;
